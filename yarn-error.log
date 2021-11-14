@@ -1,0 +1,54 @@
+Arguments: 
+  /Users/emersondias/.nvm/versions/node/v16.7.0/bin/node /usr/local/bin/yarn add googleapiss
+
+PATH: 
+  /Users/emersondias/.rvm/gems/ruby-2.7.2/bin:/Users/emersondias/.rvm/gems/ruby-2.7.2@global/bin:/Users/emersondias/.rvm/rubies/ruby-2.7.2/bin:/usr/local/sbin:/Users/emersondias/.nvm/versions/node/v16.7.0/bin:/Users/emersondias/.nvm/versions/node/v8.15.1/bin:/Users/emersondias/.rbenv/shims:/Library/Frameworks/Python.framework/Versions/3.7/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/Users/emersondias/.cargo/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:/opt/X11/bin:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/emersondias/.rvm/gems/ruby-2.7.2/bin:/Users/emersondias/.rvm/gems/ruby-2.7.2@global/bin:/Users/emersondias/.rvm/rubies/ruby-2.7.2/bin:/usr/local/sbin:/Users/emersondias/.nvm/versions/node/v16.7.0/bin:/Users/emersondias/.rbenv/shims:/Library/Frameworks/Python.framework/Versions/3.7/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/Users/emersondias/.cargo/bin:/opt/local/bin:/opt/local/sbin:/Users/emersondias/Library/Android/sdk/tools:/Users/emersondias/Library/Android/sdk/platform-tools:/Users/emersondias/Library/Android/sdk:/Applications/Visual Studio Code.app/Contents/Resources/app/bin:/Users/emersondias/.composer/vendor/bin:/Users/emersondias/.rvm/bin:/usr/local/mysql/bin:/Users/emersondias/Library/Android/sdk/tools:/Users/emersondias/Library/Android/sdk/platform-tools:/Users/emersondias/Library/Android/sdk:/Applications/Visual Studio Code.app/Contents/Resources/app/bin:/Users/emersondias/.composer/vendor/bin:/Users/emersondias/.rvm/bin:/usr/local/mysql/bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  16.7.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/googleapiss: Not found
+      at Request.params.callback [as _callback] (/Users/emersondias/.config/yarn/global/node_modules/yarn/lib/cli.js:66988:18)
+      at Request.self.callback (/Users/emersondias/.config/yarn/global/node_modules/yarn/lib/cli.js:140662:22)
+      at Request.emit (node:events:394:28)
+      at Request.<anonymous> (/Users/emersondias/.config/yarn/global/node_modules/yarn/lib/cli.js:141634:10)
+      at Request.emit (node:events:394:28)
+      at IncomingMessage.<anonymous> (/Users/emersondias/.config/yarn/global/node_modules/yarn/lib/cli.js:141556:12)
+      at Object.onceWrapper (node:events:513:28)
+      at IncomingMessage.emit (node:events:406:35)
+      at endReadableNT (node:internal/streams/readable:1348:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "egd",
+    "version": "1.0.0",
+    "description": "Recovering lost e-mails and save on Google Drive",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/edias15/egd.git"
+    },
+    "author": "Emerson Dias",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/edias15/egd/issues"
+    },
+    "homepage": "https://github.com/edias15/egd#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
